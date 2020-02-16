@@ -9,3 +9,4 @@ end
 def assign_rooms(name)
   rooms = [ ]
   name.each.with_index(1) do |name, room_assignment|
+    rooms << room_assignment
